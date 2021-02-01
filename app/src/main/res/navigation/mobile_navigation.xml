@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_productos">
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.user.brayan.pruebatecnica.ui.products.ProductsFragment"
+        android:label="@string/menu_productos"
+        tools:layout="@layout/fragment_productos" />
+
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.user.brayan.pruebatecnica.ui.contactus.ContactUsFragment"
+        android:label="@string/menu_contactenos"
+        tools:layout="@layout/fragment_contactenos" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.user.brayan.pruebatecnica.ui.profile.ProfileFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>

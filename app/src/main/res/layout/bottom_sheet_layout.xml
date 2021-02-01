@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="225dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/padding_activity"
+    app:layout_behavior="com.google.android.material.BottomSheet">
+
+    <TextView
+        android:text="Foto de Perfil"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/negro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:clickable="true"
+        android:layout_height="55dp"
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:padding="16dp"
+        android:layout_gravity="center_vertical"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_gallery"
+            app:tint="@color/gris" />
+
+        <TextView
+            android:textSize="16dp"
+            android:text="Desde la galeria"
+            android:textColor="@color/negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:clickable="true"
+        android:layout_height="55dp"
+        android:id="@+id/camara"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:padding="16dp"
+        android:layout_gravity="center_vertical"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_camera"
+            app:tint="@color/gris" />
+
+        <TextView
+            android:textSize="16dp"
+            android:text="Tomar Foto"
+            android:textColor="@color/negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+</LinearLayout>

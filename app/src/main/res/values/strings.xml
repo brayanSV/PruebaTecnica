@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Prueba Técnica</string>
+
+    <string name="user_login">Usuario</string>
+    <string name="user_name">Nombre</string>
+    <string name="user_surname">Apellido</string>
+    <string name="user_login_error">Usuario requerido</string>
+    <string name="password_login">Contraseña</string>
+    <string name="password_login_error">Contraseña requerida</string>
+    <string name="button_login">Iniciar Sesion</string>
+    <string name="button_save">Guardar Cambios</string>
+    <string name="title_location_notification">Localización</string>
+    <string name="message_location_notification">Localización desconocida</string>
+
+    <string name="title_activity_contactenos">Map</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Abrir menu</string>
+    <string name="navigation_drawer_close">Cerrar menu</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_productos">Productos</string>
+    <string name="menu_contactenos">Contactenos</string>
+    <string name="menu_perfil">Perfil</string>
+
+</resources>

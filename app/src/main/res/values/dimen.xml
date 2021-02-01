@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_cardview">10dp</dimen>
+    <dimen name="padding_activity">10dp</dimen>
+    <dimen name="padding_profile_activity">20dp</dimen>
+    <dimen name="margin_object_login">5dp</dimen>
+    <dimen name="margin_object_profile">5dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="size_image_circle">100dp</dimen>
+</resources>

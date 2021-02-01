@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "463446746309",
+    "project_id": "pruebatecnica-82e3e",
+    "storage_bucket": "pruebatecnica-82e3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463446746309:android:c33092e74c1d34978bbcac",
+        "android_client_info": {
+          "package_name": "com.user.brayan.pruebatecnica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463446746309-1k0r0dfs3lf33j8udaptqnl3h4snbumb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.user.brayan.pruebatecnica",
+            "certificate_hash": "7b3ceb2167fdc33e61db5f43be35e0eba9321eb4"
+          }
+        },
+        {
+          "client_id": "463446746309-n2j5caqvpdbsr2e98c0nj9vripl2etvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo1LlL4WfyQWNk0r63pOFAFe1kjanc7Yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463446746309-n2j5caqvpdbsr2e98c0nj9vripl2etvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
